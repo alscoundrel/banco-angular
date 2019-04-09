@@ -20,7 +20,7 @@ text-shadow: 2px 2px #333;
 font-family: 'Crete Round', serif !important;
 }
 .tag {
-font-size: 2-pt;
+font-size: 56pt;
 color: chocolate;
 font-weight: bold;
 }
@@ -34,4 +34,7 @@ height: auto;
 z-index: -1000;
 background: url('../images/bg_banking.png') no-repeat;
 background-size: cover;
+}
+.typing-element{
+display: inline;
 }
