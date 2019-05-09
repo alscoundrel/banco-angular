@@ -12,6 +12,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { CadastroClientesComponent } from './cadastro-clientes/cadastro-clientes.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HomeLogadaComponent } from './home-logada/home-logada.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +22,14 @@ import { CadastroClientesComponent } from './cadastro-clientes/cadastro-clientes
     FooterComponent,
     ContentComponent,
     CadastroClientesComponent,
+    HomeLogadaComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatDialogModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
